@@ -1,1 +1,91 @@
 /****** CUSTOM STYLES  ******/
+
+
+.background-multiply-light {
+    background-color: #033f88 !important;
+    background-blend-mode: multiply;
+}
+
+.image-lg {
+  max-height: 200px;
+}
+
+
+/** Cards **/
+
+.card-break {
+    display: inline !important;
+}
+
+.card-popup {
+    display: none;
+    max-width: 50% !important;
+    text-align: center !important;
+}
+
+.card-popup h4 {
+    line-height: 16px;
+}
+
+.card-popup h5 {
+    font-weight: 300;
+    line-height: 0px;
+}
+
+@media all and (max-width: 767px) {
+    .card-popup {
+        max-width: 100% !important;
+    }
+    .grow:hover {
+        transform: scale(1.00);
+    }
+
+    .image-tile {
+        max-width: 85% !important;
+        margin: 0 auto;
+        margin-bottom: 24px !important;
+    }
+}
+
+@media all and (max-height: 468px) {
+    .image-lg {
+        max-height: 100px;
+        transition: all 0.2s ease;
+        -webkit-transition: all 0.2s ease;
+        -moz-transition: all 0.2s ease;
+    }
+}
+
+.image-tile a {
+    color: inherit;
+}
+
+*:focus {
+outline: 0;
+outline: none;
+}
+
+
+
+/** ANIMATIONS **/
+
+.grow { transition: all .2s ease-in-out; }
+.grow:hover { transform: scale(1.05); }
+
+
+/** COLORS **/
+
+.bg-off-white {
+    background: #F5F5F5
+}
+
+.color-dark-gray {
+    color: #333 !important;
+}
+
+.dark-line {
+    margin-top: 3rem;
+    margin-bottom: 3.5rem;
+    border-width: 0;
+    border-top: 1px solid #E1E1E1;
+}
